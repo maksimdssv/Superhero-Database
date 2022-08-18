@@ -1,0 +1,42 @@
+.container {
+    background-color: inherit;
+    position: relative;
+
+    width: 100%;
+    height: fit-content;
+
+    border-radius: 20px;
+    border: 2px solid #FBE0DC;
+
+    padding: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fff;
+    width: fit-content;
+    padding: 0 5px;
+
+    position: absolute;
+    top: -26px;
+    left: 25%;
+
+    font-size: 36px;
+    font-weight: 700;
+
+    color: #1D1D1D;
+
+    border-radius: 20px;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: 400;
+
+    min-width:400px;
+
+    color: #8C8C8C;
+}

@@ -1,0 +1,43 @@
+.card {
+    width: 18%;
+    height: 100%;
+
+    background-color: #9edba1;
+    border: 2px solid black;
+    border-radius: 20px;
+
+    color: #212121;
+    position: relative;
+
+    padding: 20px 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    max-width: 90%;
+    max-height: 60%;
+
+    margin-bottom: 30px;
+
+    border-radius: 20px;
+}
+
+.nickname {
+    word-wrap: break-word;
+    width: 90%;
+    text-align: center;
+    font-size: 1.25vw;
+}
+
+.card:hover {
+    border-color: cyan;
+    cursor: pointer;
+}
+
+.card:active {
+    border-color: crimson;
+}

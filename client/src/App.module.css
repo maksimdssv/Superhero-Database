@@ -1,0 +1,26 @@
+.app {
+    width: 100vw;
+    height: 100vh;
+    background-color: #212121;
+    color: #19f3c2;
+    overflow: hidden;
+}
+
+.main-header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px 80px;
+    font-weight: 700;
+    font-size: 36px;
+
+    height: fit-content;
+}
+
+.icon {
+    position: absolute;
+    left: 30px;
+    font-size: 60px;
+}

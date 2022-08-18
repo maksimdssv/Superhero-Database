@@ -1,0 +1,40 @@
+.selectors-container {
+    position: absolute;
+    bottom: -15px;
+    right: 30%;
+
+    height: 30px;
+    width: fit-content;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 10px 7.5px 10px 7.5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    box-sizing: border-box;
+}
+
+.small-selector {
+    width: 10px;
+    height: 10px;
+
+    background: #FBE0DC;
+    border-radius: 10px;
+
+    border: none;
+
+    margin: 0 2.5px 0 2.5px;
+
+    padding: 0;
+}
+
+.small-selector:hover {
+    background: #FF868E;
+}
+
+.small-selector.active {
+    background: #FF868E;
+}
