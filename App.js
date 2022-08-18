@@ -12,6 +12,10 @@ app.use(express.static(__dirname+"/client/build"));
 
 const port = process.env.PORT || 5000;
 
+if (!fs.existsSync('./upload')){
+    fs.mkdirSync('./upload')
+}
+
 const storage = multer.diskStorage({ // function to handle saving of files
     destination: async function (req, file, cb) {
         await fs.mkdir('./upload/' + req.body.nickname, {recursive: true}, (err) => {

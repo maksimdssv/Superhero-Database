@@ -1,5 +1,4 @@
 import styles from "./HeroFullInfo.module.css";
-import ModalWindow from "./UI/ModalWindow";
 import DescriptionSection from "./UI/DescriptionSection";
 import NewHeroForm from "./NewHeroForm";
 import {IoClose} from "react-icons/io5";
