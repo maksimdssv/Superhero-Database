@@ -38,7 +38,9 @@ Then run either of both commands in starting directory:
 npm start
 npm run dev
 ```
+
 Then run this in client directory:
+
 ```
 npm start
 ```
@@ -46,3 +48,11 @@ npm start
 ### Database
 
 To properly work with this project you need to host a mongoDB connection at `localhost://27017` by yourself.
+
+## Testing
+
+To run tests you have to install packages in client directory first. Then inside it run this:
+
+```
+npm run test
+```
