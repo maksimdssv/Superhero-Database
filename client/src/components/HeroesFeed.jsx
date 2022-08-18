@@ -21,7 +21,7 @@ function HeroesFeed() {
 
     async function addHero(data) { // handle click "save" in modal
         axios.post("/superheroes", data, {headers: {'Content-Type': 'multipart/form-data'}})
-            .then(res => {
+            .then(() => {
                 ctx.updateHeroes();
                 ctx.resetCounter();
             })
