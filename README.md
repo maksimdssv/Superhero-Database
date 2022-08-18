@@ -13,7 +13,7 @@ In order to run this project you need:
 
 ## Run the solution
 
-There are two ways to run this project. Either in dev version or in production build.
+First, clone the repo or download it. Then there are two ways to run this project. Either in dev version or in production build.
 
 ### Production build
 
